@@ -26,10 +26,10 @@ class Home extends CI_Controller {
 
         $config = Array(
             'protocol' => 'smtp',
-            'smtp_host' => 'mail.jbr-projects.pt',
+            'smtp_host' => 'yourhost',
             'smtp_port' => 465,
-            'smtp_user' => 'geral@jbr-projects.pt',
-            'smtp_pass' => 'DZ-_#W6d&PvL',
+            'smtp_user' => 'youruser',
+            'smtp_pass' => 'yourpassword',
             'smtp_crypto' => 'ssl',
             'mailtype' => 'html',
             'smtp_timeout' => '4',
