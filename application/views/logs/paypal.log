@@ -1,0 +1,5 @@
+[24-03-2018 03:16:02] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[24-03-2018 03:16:03] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[24-03-2018 03:16:03] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-03-2018 03:16:04] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[24-03-2018 03:16:04] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].item_list.items[0].price","issue":"Required field missing"},{"field":"transactions[0].amount","issue":"Amount cannot be zero"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"61e62271136bb"}
